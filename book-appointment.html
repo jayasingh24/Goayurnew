@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <title>Ayur Health</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #ebb42c !important">
+          <span style="font-size: 20px; margin-left: 5px"><i>A</i></span
+          >yur Health
+
+          <span style="font-size: 12px"
+            ><i
+              >(Goveda <img src="./images/cow-silhouette.png" alt="" /> +
+              Ayurveda <i class="fa fa-pagelines" aria-hidden="true"></i>)</i
+            >
+          </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                ><i class="fa fa-home ms-2 me-2"></i>Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./cancer.html"
+                ><i class="fa fa-user-md ms-2 me-2"></i>Cancer Care &
+                Treatment</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./goveda.html"
+                ><i class="fa fa-tree ms-2 me-2"></i>Goveda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html"
+                ><i class="fa fa-book ms-2 me-2"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./book-appointment.html"
+                ><i class="fa fa-phone ms-2 me-2"></i>Book Appointment</a
+              >
+            </li>
+            <li>
+              <img
+                src="./images/WhatsApp Image 2023-03-06 at 1.55.28 PM.jpeg"
+                width="40px"
+                height="40px"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 56px">
+      <div class="row appointmentForm">
+        <div class="col-md-6 col-12">
+          <h3
+            style="
+              text-align: center;
+              color: red;
+              font-weight: 400;
+              margin-top: 20px;
+            "
+          >
+            Apply for treatment
+          </h3>
+          <h5 style="text-align: center; color: red; font-weight: 400">
+            Fill out this form and we will contact you shortly to book your
+            consultation with the concerned Ayurvedic Specialist.
+          </h5>
+
+          <form action="https://formspree.io/f/mgebyqln" method="post">
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Your name.."
+            />
+
+            <label for="Phone">Phone No.</label>
+            <input
+              type="text"
+              id="Phone"
+              name="phonenumber"
+              placeholder="Your phone number.."
+            />
+            <label for="whatsapp">WhatsApp No.</label>
+            <input
+              type="text"
+              id="whatsapp"
+              name="whatsapp"
+              placeholder="Your WhatsApp No.."
+            />
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+
+            <label for="message">Disease Condition</label>
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Write something about your disease.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="contactInfo" style="margin: auto">
+            <div style="margin: auto">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title="Message on this number"
+                style="margin-bottom: 10px; background-color: rgb(7, 81, 7)"
+              >
+                <i class="fa fa-whatsapp"></i> +91 82490 54738
+              </button>
+            </div>
+            <div style="margin: auto">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                title="Call on this number"
+                style="margin-bottom: 10px; background-color: rgb(7, 81, 7)"
+              >
+                <i class="fa fa-phone"></i> +91 820 919 3582
+              </button>
+            </div>
+            <div style="margin: auto">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Please mail to us"
+                style="margin-bottom: 10px; background-color: rgb(7, 81, 7)"
+              >
+                <i class="fa fa-envelope"></i>
+                ayurhealth2all@gmail.com
+              </button>
+            </div>
+          </div>
+          <div class="contactImg">
+            <img
+              src="./images/pounder.jpeg"
+              alt="pic"
+              width="200px"
+              height="200px"
+              style="border-radius: 50%"
+            />
+
+            <h2 style="margin: 10px 0px; color: #f62b98"><i>AYUR HEALTH</i></h2>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+
+      <!-- Footer -->
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset" style="text-decoration: none">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
+          <a href="" class="me-4 text-reset" style="text-decoration: none">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset" style="text-decoration: none">
+            <i class="fa fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset" style="text-decoration: none">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset" style="text-decoration: none">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fa fa-tree me-3"></i>Ayur Health
+              </h6>
+              <p>
+                Ayurhealth is the leading platform that provides Ayurvedic
+                management services.We are a group of Ayurvedic experts who are
+                committed to excellence in this field.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Treatments</h6>
+              <p>
+                <a href="./cancer.html" class="text-reset">Breast cancer</a>
+              </p>
+              <p>
+                <a href="./cancer.html" class="text-reset">colorectal cancer</a>
+              </p>
+              <p>
+                <a href="./cancer.html" class="text-reset">mouth cancer</a>
+              </p>
+              <p>
+                <a href="./cancer.html" class="text-reset">lung cancer</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Cancer & Ayurveda</h6>
+              <p>
+                <a href="./cancer.html" class="text-reset">Pain Managment</a>
+              </p>
+              <p>
+                <a href="./cancer.html" class="text-reset">Skin diseases</a>
+              </p>
+              <p>
+                <a href="./cancer.html" class="text-reset">Balroga</a>
+              </p>
+              <p>
+                <a href="./cancer.html" class="text-reset"
+                  >Stri Roga &amp; Infertility</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fa fa-whatsapp me-3"></i> +91 8209193582</p>
+              <p>
+                <i class="fa fa-envelope me-3"></i>
+                ayurhealth2all@gmail.com
+              </p>
+              <p><i class="fa fa-phone me-3"></i> +91 820 919 3582</p>
+              <p><i class="fa fa-phone me-3"></i> +91 82490 54738</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >Ayur Health.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <title>Ayur Health</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #ebb42c !important">
+          <span style="font-size: 20px; margin-left: 5px"><i>A</i></span
+          >yur Health
+
+          <span style="font-size: 12px"
+            ><i
+              >(Goveda <img src="./images/cow-silhouette.png" alt="" /> +
+              Ayurveda <i class="fa fa-pagelines" aria-hidden="true"></i>)</i
+            >
+          </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                ><i class="fa fa-home ms-2 me-2"></i>Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./cancer.html"
+                ><i class="fa fa-user-md ms-2 me-2"></i>Cancer Care &
+                Treatment</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./goveda.html"
+                ><i class="fa fa-tree ms-2 me-2"></i>Goveda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html"
+                ><i class="fa fa-book ms-2 me-2"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./book-appointment.html"
+                ><i class="fa fa-phone ms-2 me-2"></i>Book Appointment</a
+              >
+            </li>
+            <li>
+              <img
+                src="./images/WhatsApp Image 2023-03-06 at 1.55.28 PM.jpeg"
+                width="40px"
+                height="40px"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid cancer" style="margin-top: 56px">
+      <div class="treatmentTab ">
+      <div class="tab">
+        <button
+          class="tablinks"
+          onclick="openCity(event, 'one')"
+          id="defaultOpen"
+        >
+          Cancer treatment care
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'two')">
+          Arthritis & Pain Management
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'three')">
+          Pilonidal Sinus & Anorectal problems
+        </button>
+        <button
+          class="tablinks"
+          onclick="openCity(event, 'four')"
+          
+        >
+        Indigestion,liver and acid peptic diseases
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'five')">
+          Urinary system Problems
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'six')">
+         Mental Health
+        </button>
+            <button
+          class="tablinks"
+          onclick="openCity(event, 'seven')"
+          
+        >
+        Immunity Problems, allergies and general weakness .
+        </button>
+            <button
+          class="tablinks"
+          onclick="openCity(event, 'eight')"
+          
+        >
+        Body weight management
+        </button>
+        <button
+        class="tablinks"
+        onclick="openCity(event, 'nine')"
+        
+      >
+      Wound Management
+      </button>
+            <button
+          class="tablinks"
+          onclick="openCity(event, 'ten')"
+          
+        >
+        Chronic Diseases & Metabolic Disorders
+        </button>
+         <button
+          class="tablinks"
+          onclick="openCity(event, 'eleven')"
+          
+        >
+        Stri Roga & Infertility
+        </button>
+        <button
+        class="tablinks"
+        onclick="openCity(event, 'twelve')"
+        
+      >
+      Skin Diseases &amp; Hair Problems
+      </button>
+      <button
+        class="tablinks"
+        onclick="openCity(event, 'thirteen')"
+        
+      >
+      Balroga and Ayurveda
+      </button>
+        
+      </div>
+      <div id="one" class="tabcontent">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 col-12">
+            <h4>Breast Cancer</h4>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/cancer1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Breast Cancer Symptoms</h6>
+                <p class="card-text">
+                  <ul><li>Any change in the size or the shape of the breast.</li>
+                    <li>Pain in any area of the breast.</li>
+                    <li>Nipple discharge other than breast milk (including blood).
+                    </li>
+                    <li>A new lump in the breast </li>
+                  </ul>
+                </p>
+                <a href="https://www.cdc.gov/cancer/dcpc/resources/features/breastcancerawareness/index.htm" target="_blank" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12">
+            <h4>Colorectal Cancer</h4>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/cancer.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Colorectal Cancer Symptoms</h6>
+                <p class="card-text"> <ul><li>A change in bowel habits</li>
+                  <li>Rectal bleeding with bright red blood</li>
+                  <li>Cramping or abdominal (belly) pain
+                  </li>
+                  <li>Weakness and fatigue.</li>
+                </ul></p>
+                <a href="https://www.cancer.org/cancer/colon-rectal-cancer/about/what-is-colorectal-cancer.html" target="_blank" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-sm-6 col-12 ">
+            <h4>Mouth Cancer</h4>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/mouth.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Mouth Cancer Symptoms</h6>
+                <p class="card-text">
+                  <ul><li>A lip or mouth sore that doesn't heal.</li>
+                    <li>A white or reddish patch on the inside of your mouth.</li>
+                    <li>Lump inside your mouth.
+                    </li>
+                    <li>Painful swallowing</li>
+                  </ul>
+                </p>
+                <a href="https://www.cdc.gov/cancer/dcpc/resources/features/breastcancerawareness/index.htm" target="_blank" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 mt-3">
+            <h4>Lung Cancer</h4>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/lungs3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Lung Cancer Symptoms</h6>
+                <p class="card-text">
+                  <ul><li>Coughing up blood</li>
+                    <li>A cough that does'nt go away.</li>
+                    <li>Hoarseness.
+                    </li>
+                    <li>Shortness of breath.</li>
+                  </ul>
+                </p>
+                <a href="https://www.cancer.org/cancer/lung-cancer/detection-diagnosis-staging/signs-symptoms.html" target="_blank" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-4 col-sm-6 col-12 mt-3">
+            <h4>Skin Cancer</h4>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/skin.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Skin Cancer Types</h6>
+                <p class="card-text">
+                  <ul><li>Basal and Squamous Cell </li>
+                    <li>Melanoma Skin Cancer</li>
+                    <li>Merkel Cell Skin Cancer
+                    </li>
+                    <li>Lymphoma of the Skin</li>
+                  </ul>
+                </p>
+                <a href="https://www.cancer.org/cancer/skin-cancer.html" target="_blank" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 mt-3">
+            <h4>Prostate Cancer</h4>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/hands.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Prostate Cancer Symptoms</h6>
+                <p class="card-text">
+                  <ul><li>Blood in the urine or semen </li>
+                    <li>Trouble getting an erection</li>
+                    <li>Problems urinating, especially at night.
+                    </li>
+                   
+                  </ul>
+                </p>
+                <a href="https://www.cancer.org/cancer/prostate-cancer.html" target="_blank" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+      
+      <div id="two" class="tabcontent">
+        <div class="row">
+          <div class="col-12 cancerContent">
+            <h4 style="text-align: center;">Pain Management in Ayurveda
+ 
+            </h4>
+            <p>Pain is the main cause that brings the sufferer to a doctor. In Ayurveda, production of
+              pain is said to be the result of vitiated Vata Dosha. Musculoskeletal painful conditions arise
+              due to various reasons that may be degenerative, overuse or repetitive stress, trauma and
+              inflammation etc. Ayurveda treatment helps in prevention and management of various painful
+              conditions quite effectively without harmful side effects. </p>
+           
+           
+            
+          </div>
+          
+          <div class="col-lg-4 col-sm-6 col-12 ">
+            <h3 style="text-align: center;"> Arthritis </h3>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/arthritis.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">What is Arthritis?</h5>
+                <p class="card-text"> Arthritis isn’t a single disease, the term refers to joint pain or joint disease.
+                  Common arthritis symptoms include swelling, pain, stiffness and diminished range of motion in joints.Arthritis can also cause permanent joint changes. These may be visible, such as knobby finger joints, but often the damage can be seen only on X-rays. Some types of arthritis affect the heart, eyes, lungs, kidneys and skin as well as the joints.
+                </p>
+                <a href="https://www.arthritis.org/health-wellness/about-arthritis/understanding-arthritis/what-is-arthritis" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 ">
+            <h3 style="text-align: center;"> Arthritis & Pain Management </h3>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/doctor.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Different types of arthritis can cause different kinds of pain.</h5>
+                <p class="card-text"> 
+                  <ul><li> Knee pain, shoulder pain, elbow pain, back pain, heel pain, cervical pain, multiple joints pain etc.</li>
+                    <li>Osteoarthritis,Rheumatoid Arthritis and Juvenile Idiopathic Arthritis,Psoriatic Arthritis,Fibromyalgia,Gout,Lupus,Back Pain</li>
+                    
+                    
+                   
+                  </ul>
+                </p>
+                <a href="https://www.arthritis.org/health-wellness/about-arthritis/understanding-arthritis/what-is-arthritis" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-12 ">
+            <h3 style="text-align: center;"> Ayurvedic Treatment </h3>
+            <div class="card" style="width: 18rem;">
+              <img src="./images/ayurveda.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Natural treatments and herbs</h5>
+                <p class="card-text">  Ayurveda has a holistic and rational approach towards cure of diseases. 
+                  Ayurvedic management is free from all adverse side effects. It increases vitality and quality of life. In Ayurveda, the management approach is totally individualized.Donot indulge in self medication, as it may not yield proper results.It is advisable to have consultation with an Ayurvedic expert.
+                </p>
+                <a href="https://www.arthritis.org/health-wellness/about-arthritis/understanding-arthritis/what-is-arthritis" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 cancerContent">
+            
+            <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+            
+           <li>
+            What are the main types of musculoskeletal painful conditions that are managed by
+Ayurvedic treatment?
+
+
+  <br>  <span class="answer"><ul><li>
+    Neck pain (cervical spondylosis)
+  </li>
+  <li>Back pain (Intervertebral disc diseases, spondylosis)
+  </li>
+  <li>Frozen shoulder pain</li>
+  <li>Ankylosing spondylitis </li>
+  <li>Tennis elbow and Golfers elbow
+  </li>
+  <li>heel pain and Wrist pain
+
+  </li>
+  <li>Knee pain (osteo-arthritis)
+
+  </li>
+  <li>Pain in tail bone (coccydynia)
+
+  </li>
+
+   <li>Multiple Joints pain (Rheumatoid arthritis, Gouty Arthritis)
+
+  </li>
+  <li>Post injury pain etc. like muscle, ligament and tendon Injuries.
+
+  </li>
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+           <li>
+            What are the main treatment modalities of Pain Management in Ayurveda?
+
+
+  <br>  <span class="answer"><ul>Ayurveda manages pain without surgical interventions (without any operation). Main
+    management modalities are: <br> <br> <li>
+      Herbal and Herbomineral Formulations
+  </li>
+  <li>Agnikarma (heat therapy)
+  </li>
+  <li>Marma Therapy (by stimulation of points of vital energy in the body)</li>
+  <li>Panchakarma therapies </li>
+  <li>Tennis elbow and Golfers elbow
+  </li>
+  <li>Raktamokshana Karma etc. (by leech therapy or Siravedhana)
+
+  </li>
+  
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+
+           <li>
+            What is Panchakarma Treatment?
+
+
+  <br>  <span class="answer"><ul>Panchakarma Treatment mainly includes: <br> <br><li>
+    Snehana (by way of internal administration of Sneha and local massage therapies)
+  </li>
+  <li>Swedana (sudations)
+  </li>
+  <li>Vamana (elimination of toxins via mouth)</li>
+  <li>Virechana (elimination of toxins via rectal route)</li>
+  <li>Tennis elbow and Golfers elbow
+  </li>
+  <li>Niruha Basti (a type of enema therapy)
+
+  </li>
+  <li>Anuvasana basti (a type of enema therapy)
+
+  </li>
+  <li>Raktamokshana Karma.
+
+  </li>
+
+   
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+         </ul>
+           
+            
+          </div>
+      </div>
+      </div>
+      
+      <div id="three" class="tabcontent">
+        <div class="row">
+          <div class="col-12">
+            <h3 style="text-align: center; margin: 10px; color: red;">Pilonidal Sinus & Anorectal problems</h3>
+        <h4 style=" margin-top: 20px; " >What is pilonidal sinus disease (PNS)?</h4>
+        <p style="color:green">A pilonidal sinus (PNS) is a small hole or tunnel in the skin. It may fill with fluid or pus, causing the formation of a cyst or abscess. It occurs in the cleft at the top of the buttocks. A pilonidal cyst usually contains hair, dirt, and debris. It can cause severe pain and can often become infected. If it becomes infected, it may ooze pus and blood and have a foul odor.</p>
+      <h4>Symptoms of pilonidal sinus</h4>
+      <p style="color:green"><ul style="color:green"><li>Pain when sitting or standing</li>
+        <li>Swelling of the cyst</li>
+        <li>Reddened, sore skin around the area</li>
+        <li>Pus or blood draining from the abscess, causing a foul odor</li>
+        <li>Hair protruding from the lesion</li>
+        <li>Formation of more than one sinus tract, or holes in the skin</li>
+        
+      </ul>
+        </p>
+        <h4>Ayurveda Treatment</h4>
+        <p style="color:green">Ayurveda <b>Kshar Sutra </b> or Thread Therapy is used to treat piles, fistula and fissure.
+          This treatment is the best alternative for modern surgery techniques. Ksharsutra treatment is now replacing all complex surgeries for Pilonidal Sinus with great success rate.Drug of any kind can control the Pilonidal Sinus infection but cannot treat Pilonidal Sinus completely. 
+          </p>
+          </div>
+        </div>
+        
+       
+      </div>
+      <div id="four" class="tabcontent">
+        <div class="row">
+          <div class="col-12">
+            
+            <h3 style="text-align: center; margin: 10px; color: red;">Indigestion,liver and acid peptic diseases</h3>
+            <h4 style=" margin-top: 20px; ">What is acid peptic disease?</h4>
+            <p style="color:green">“Acid peptic disease” is a collective term used to include many conditions such as gastro-esophageal reflux disease (GERD), gastritis, gastric ulcer, duodenal ulcer, esophageal ulcer, Zollinger Ellison Syndrome (ZES) and Meckel's diverticular ulcer.Acid peptic disease – commonly called APD – includes a number of conditions. All these conditions are the result of damage from acid and peptic activity in gastric secretions. APD occurs when the acid starts irritating the inner cells (mucosal layer) of the stomach. Acid peptic diseases mostly affect the oesophagus, stomach, and duodenum.</p>
+            <h4>Symptoms of acid peptic disease</h4>
+            <ul style="color:green"><li>Burning stomach pain.</li>
+              <li>Feeling of fullness, bloating or belching.</li>
+              <li>Intolerance to fatty foods.</li>
+              <li>Heartburn.</li>
+              <li>Nausea.</li>
+            </ul>
+            <h4></h4>
+            <h4>Ayurvedic Treatment</h4>
+            <p style="color:green">Ayurvedic formulations like Amlant, Dizomap and Triphala which when used synergistically, works at a fundamental level to provide relief from the problem.</p>
+            
+
+
+
+
+          </div>
+        </div>
+       
+      </div>
+      
+      <div id="five" class="tabcontent">
+        <div class="row">
+          <div class="col-12">
+          
+          <h3 style="text-align: center; margin: 10px; color: red;">Ayurvedic Management of Urinary Problems</h3>
+        
+        </div>
+        <div class="col-12 cancerContent">
+          
+          <p>Most of the urinary tract problems are well managed by Ayurveda. The need is to
+            approach and consult an Ayurvedic expert as early as possible. Features of difficulty
+            or pain during urination, burning sensation, blood in urine, increased frequency of
+            urination that is more during night, feeling of incomplete evacuation of bladder after
+            urination, decreased flow of urine etc. </p>
+         
+            <p>Examples of urinary disorders include cancers of the urinary tract, incontinence (inability to control urine flow), interstitial cystitis, kidney stones, kidney failure, and urinary tract infections.</p> 
+          
+        </div>
+        <div class="col-12 col-lg-4">
+          <img src="./images/kidney.jpg" alt="" class="card-img-top">
+          <p style="text-align: center; color: red;">Urinary system Problems</p>
+        </div>
+        <div class="col-12 col-lg-8">
+          <h4 style="color:red">Ayurvedic Treatment</h4>
+          <p>Panchakarma for urinary tract disorders</p>
+          <p>In Ayurveda, a balanced state of vata, pitta, and kapha doshas is responsible for good health. Urinary tract disorders are caused by the imbalance of these humours. Ayurvedic treatment for urinary tract disorders involves flushing out infection with detoxification, cleaning out blockages of the urinary tract, and adminstering herbs that tone the kidneys and normalise the functioning of the apana vayu (vata).</p>
+        </div>
+          <div class="col-12">
+          <ul>
+            <li>Snehapana: Oral administration of medicated ghee. It has the ability to transport therapeutically effective components to different tissues of urinary tract.</li>
+            <li>Abhyanga: This healing whole-body massage refreshes both physical and mental health, improves circulation, and unblocks channels.</li>
+            <li>Swedana: Medicated steam bath restores cell metabolism and flushes out accumulated body toxins.</li>
+            <li>Medicated enemas: A mixture of medicated herbs is administered to the colon via the anal canal.</li>
+            <li>Virechana (therapeutic purgation) – Therapeutic herbs are used to induce purgation – a complete emptying of the digestive tract.</li>
+            <li>Uttaravasti: In this treatment, ayurvedic enemas are administrated to the patient through the urethral or vaginal route.</li>
+          </ul>
+
+
+
+
+
+        </div>
+        <div class="col-12 cancerContent">
+        <h4 style="text-align: center;">FAQ</h4>
+        <ul>
+         
+        <li>
+          What are common urinary problems that are managed by Ayurvedic
+          Treatment?
+
+
+<br>  <span class="answer"><ul><li>
+  Urinary Tract Infection
+</li>
+<li>Cystitis
+</li>
+<li>Renal stones</li>
+<li>Urethral Stricture </li>
+<li>Chronic Kidney Diseases
+</li>
+<li>Prostate enlargement.
+
+</li>
+
+</ul>
+ 
+
+
+</span>
+
+
+        </li>
+        <li>
+          What are the main management modalities of Ayurveda in Urinary problems?
+
+
+<br>  <span class="answer"><ul>In Ayurveda the urinary problems are managed without operation, mainly by:<br> <br> <li>
+  Oral Ayurvedic Herbal formulations
+</li>
+<li>Sthanic Snehana-Swedana Karma
+</li>
+<li>Uttar basti Karma</li>
+<li>Basti Karma </li>
+<li>Apathya &amp; Nidana Parivarjana
+</li>
+
+
+</ul>
+ 
+
+
+</span>
+
+
+        </li>
+
+        <li>
+          What measures should be adopted to prevent the formation of kidney stones?
+
+
+<br>  <span class="answer"><ul><li>
+  Adequate intake of water &amp; fluids
+</li>
+<li>Regulay claerance of bowels
+</li>
+<li>Not to hold the natural urge of urination</li>
+<li>Regular detoxing of the body</li>
+
+
+
+</ul>
+ 
+
+
+</span>
+
+
+        </li>
+      </ul>
+    </div>
+      </div>
+
+        
+      </div>
+      
+      <div id="six" class="tabcontent">
+       <div class="row">
+        <div class="col-12 cancerContent">
+          <h4 style="text-align: center;">Mental Health & Ayurveda </h4>
+          <p>Mental health is an important component of total health. Mind governs body and its actions.  Right actions lead to a successful human life. Disease is a psychosomatic condition that adversly affects both mind and body. Physical problems also affect the mental health and vice versa.</p>
+          <p>Mental stress, anxiety, depression, nervousness etc. are common these days owing to the hurry and worry type culture propagating in the society. Although materialistic approach has brought luxury and comfort in life, yet people are restless, unsatisfied, stresssed, impatient and depressed. They take sleeping pills and  antidepressants. In very serious conditions, they completely ruin and end their life.  People usually hesitate to talk about their problem due to various reasons. Apparently a person looking quite healthy may be suffering from a mental diseases.  Mental problems are very serious and must be dealt with extreme care and sympathetic counselling.
+          </p>
+          <p>Ayurveda provides solution to various problems through counselling, Yoga and meditation. Also, a good number of Ayurvedic formulations like Medhya Rasayana (formulations that enhance mental strength, memory and intellect) are helpful in managing these problems. Shiroabhyanga, Shirobasti, Nasya Karma, Shirodhara are the main Ayurvedic procedures that directly affect brain, bring calmness and good sleep, thereby provide healing. </p>
+         
+
+          
+          
+         
+ 
+
+          <h4 style="text-align: center;">FAQ</h4>
+          <ul>
+            <li>
+            I am not having sound sleep for the last few years. When I wake up in the morning, I don’t feel fresh and energetic. Whole day there is feeling of tiredness. <br>
+            <span class="answer">
+              There may be multiple factors behind this. Proper counselling with an expert to root out the cause is very important. Positive attitute, Yogic practices and meditation are quite helpful. 
+            </span>
+            		
+
+          </li>
+          <li>
+            My child is 8 years old. He is facing problem in memorizing  his lessons. What should I do? <br>
+            <span class="answer">
+              He requires good nourishment. Healthy food is the key to healthy mind. In addition to studies, he should  actively participate in sports and some other creative activities also. Ayurvedic Medhya Rasayana, chanting of Mantras and certain Paranayama practices will  help a lot.
+	
+            </span>
+           
+
+          </li>
+          <li>
+            I am not able to concentrate and focus on things. Due to this I am not able achieve the desired professional goals.
+ <br>  <span class="answer">
+  It is better to have some sessions on meditation and Yoga practices where you will learn and improve your ability to concentrate and achieve the desired goals. 
+	
+ </span>
+ 
+
+          </li>
+          <li>
+            I am taking sleeping pills for the last 1 year. Now I oftenly forget even very important things. Is this the effect of these pills?How can I get rid of this thing?
+
+ <br><span class="answer">
+  Yes, you are right. Prolonged use of sleeping pills is not recommended because of several associated adverse effects. You will gradually be able to get a sound sleep naturally without pills. Better avoid the things that agitate your mind. Follow a spiritual and meditative routine. If you seek any help, don’t hesitate to consult our experts.
+ </span>
+ 
+	
+
+          </li>
+        </ul>
+        </div>
+        
+       
+       </div>
+      </div>
+      <div id="seven" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;"> Immunity Problems</h4>
+           <p>Immunity Problems generally arise due to poor resistance towards various infections. Ayurveda aims at attaining and maintaining a healthy balance of Dosha (Vata, Pitta and Kapha), Dhatus (tissues of the body like blood, muscles and bones etc.) and Mala (faeces, urines, sweat, hair, nails etc.). Rasa, Rakta, Mamsa, Meda, Asthi, Majja and Shukra are the seven Dhatus. Oja has been stated as the supreme essence of all these Dhatus and is vital for good immunity and survival of the body. </p>
+           <p>It is the matter of immunity that exposure to an infectious agent can result in manifestation of disease in one person, while the other person may remain healthy even after repeated such exposures. In our daily life, we see some people remain healthy throughout the year while some get very diseased quite oftenly. A mere change in season can precipitate an episode of illness. The difference is in the immunity levels. 
+
+           </p>
+           <p>Immunity is the inner strength that fights with diseases and keeps us healthy. In Ayurveda, various Rasayan therapies provide rejuvination and improve immunity levels. Rasayanas help in decreasing the pace of aging  and improve longivity and quality of life.  This is one of the most important preventive aspects, that Ayurveda has contributed to the service of humanity. 
+          </p>
+ <h2 style="margin: 20px 0px; text-align: center; font-style: italic; color: red;">Improve Immunity &amp; Stay Healthy</h2>
+           <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+             <li>
+              What is Rasayana?
+              <br>
+             <span class="answer">
+              These are the Ayurvedic formulations and conducts that are primarily intended to be used for enhancing immunity levels, physical and mental strength.
+             </span>
+                 
+ 
+           </li>
+           <li>
+            Can Rasayan be taken by healthy person?
+            <br>
+             <span class="answer">
+              Yes, these can be taken daily by a healthy person. This will decrease the chances of getting a disease to fairly good extent. 
+
+   
+             </span>
+            
+ 
+           </li>
+           <li>
+            What are the examples of Rasayana?
+
+  <br>  <span class="answer"><ul><li>
+    Chayvan Prash 
+  </li>
+  <li>Braham Rasayan</li>
+  <li>Triphala Rasayan</li>
+  <li>Pippali Rasayan</li>
+  <li>Amalaki Rasayan etc.</li>
+  
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+           <li>
+            Is one Rasayan suitable for all members of the family?
+   
+ 
+  <br><span class="answer">
+    Rasayana should better be taken after consulting the Ayurvedic expert. Dose and type of Rasayan may differ from person to person. For example a student may require Rasayan to improve memory and learning abilities while a housewife may require it for improving her health status. A wide variety of Rasayan with different indications is available in Ayurveda. 
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            Are Rasayan helpful in Allergic disorders?
+
+   
+ 
+  <br><span class="answer">
+    Yes, an allergic condition is a type of inflammatory response to some allergic agent (allergen). The best treatment is Nidan Parivarjan. Nidan Parivarjan means avoiding the cause of allergy. The other way of treatment is to strengthen the disease fighting system of body and Rasayan work by the same way.
+
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            My child of 4 years falls ill very oftenly. Is there anything in Ayurveda that can help in boosting his immunity?
+
+   
+ 
+  <br><span class="answer">
+    Yes, go for regular Swaran Prashan. This will help a lot. Ensure a healthy diet. Avoid giving fast food and artificial food suppliments.
+
+  </span>
+  
+   
+ 
+           </li>
+         </ul>
+         </div>
+         
+        
+        </div>
+       </div>
+
+       <div id="eight" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;">Body Weight Management &amp; Ayurveda</h4>
+           <p>Who doesn’t want to look beautiful or handsome? But when it
+            comes to shed the unnecessary fat from body, a holistic approach is
+            required to get optimum results. Otherwise, one may suffer from various
+            problems and discomforts to achieve the goals. Similarly a very lean and
+            thin person is not appreciated as regards the physical looks and
+            personality is concerned. To increase weight, people indulge in taking
+            different artificially prepared chemicals, protein powders and even
+            steroids. They loose both health and wealth in such efforts. </p>
+           <p>Maintaining body weight with in healthy range is an ideal way not to improve your personality but also to minimise the chances of various disease. Unfortunately, overweight and obesity is the risk factor for a large number diseases viz. Diabetes (sugar), Hypertension (High Blood pressure), Thyroid disorders, infertility, musculoskeletal disorders like low back pain & osteo-arthritis and even cancer like breast cancer etc. An ideal Body Mass Index (BMI)  has been reported to range between 18.5 to 24.9. BMI is the index of body weight according to height of the person. A BMI below 18.5 suggests underweight and above 25 it suggests overweight.  
+
+           </p>
+           <p>Body weight management in Ayurveda is rational and free from adverse effects. It is primarily the Rasa Dhatu (Diet) which is responsible for  issues related to body weight. Srotas or the channels of circulation in the body play a vital role in nourisment of all the body tissues. In an obese person, these channels get blocked  resulting in accumulation of more n more fat in body while the other tissues are deprived of proper nourishment. As a result, a fatty person lacks actual physical strength. Similarly an underweight person is lacking good digestive fire or having blocked Srotas; so adequate nourishment and development  of tissues doesnot take palce.
+
+          </p>
+          <p>In Ayurveda, after proper consideration of various factors like Dosha, Dushya, Prakriti, Desha, Kala, Bala and Agni etc. regimens of diet, exercise and medicines are planned and prescribed. Individualistic yet holistic approach of Ayurveda is the best in managing body weight problems. A gradual and progressive approach helps in attaining and maintaining an ideal BMI by detoxing the channels of circulation.
+
+
+          </p>
+          <h3 style="text-align: center; font-style: italic; color: green; margin-bottom: 0px; margin-top: 30px;">TO MANAGE BODY WEIGHT PROBLEMS</h3>
+          <h3 style="text-align: center;font-style: italic; color: red; margin-bottom: 0px; margin-top: 0px;">Adopt the way that is</h3>
+          <h3 style="text-align: center; font-style: italic; color:red; margin-bottom: 0px; margin-top: 0px;"> More Natural, More Scientific &amp; More Healthy</h3>
+          <h3 style="text-align: center; font-style: italic; color:green; margin-bottom: 30px; margin-top: 0px;">ADOPT AYURVEDA</h3>
+          
+           <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+             <li>
+              How I can calculate my BMI?
+              <br>
+             <span class="answer">
+              For example the BMI of a person with 60 kg body weight and 1.55 meters height will be calculated as under:	<br>
+              BMI= 60/ (1.55)2 = 60/ 1.55 X 1.55 =  60/2.40 = 25 <br>
+	            So it will be 25 kg/m2.
+
+             </span>
+                 
+ 
+           </li>
+           <li>
+            My weight is 72 kg. Eight months back, I had taken Slimming course from some health clinic and I reduced my weight by 6 kgs. After 3 months again I started gaining weight. What should I do?
+
+            <br>
+             <span class="answer">
+              To manage body weight a regular diet and life style regimen has to be followed. Even after treatment you have to continue taking healthy diet and regular exercises. Avoid extra calories in your diet. Avoid junk food, spicy, oily, fast food. Avoid taking meals late at night. Keep the bowels clear. Regular walk, exercise, Yoga and Pranayama will help you reduce extra fat. In addition to all this, there are some Ayurvedic formulations that can help in detoxing the body thereby reducing extra body weight.
+   
+             </span>
+            
+ 
+           </li>
+           <li>
+            What are the main causes of increasing body weight?
+
+
+  <br>  <span class="answer"><ul><li>
+    Excessive calories in diet
+  </li>
+  <li>No physical exercise
+  </li>
+  <li>Hereditary</li>
+  <li>Diseases </li>
+  <li>Harmonal Imbalance like Hypothyroidism
+  </li>
+  <li>Drugs like anabolic Steroids etc.
+
+  </li>
+  
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+           <li>
+            I am diagnosed with hypothyroidism. Does it have an relation with my increasing body weight?
+   
+ 
+  <br><span class="answer">
+    Yes, gaining body weight is associated with hypothyroidism.
+
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            I am very lean and thin. What should I do to gain some weight?
+
+   
+ 
+  <br><span class="answer">
+    It is important that you take enough calories in diet. Take a well balanced diet at regular intervals. Don’t skip the time of your meals. Take enough sleep. Physical exercises will help increasing your digestive fire. Ensure adequate water intake and avoid constipation. In addition to this some Ayurvedic formulation having Balya and Brihghna  (strength and bulk promoter)properties will help you gaining weight and strength naturally.
+
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            I want to reduce my weight at the earliest. What is the minimum time for getting 10kg weight reduction?
+   
+ 
+  <br><span class="answer">
+    Ideal way is to reduce it gradually. To get sustained results a gradual progressive approach is always better. It may take a couple of months or more depending upon your compliance to the precribed schedule. Reducing too much weight in a very short period of time is not recommended in Ayurveda as it is unnatural and harmful.
+
+  </span>
+  
+   
+ 
+           </li>
+         </ul>
+         </div>
+         
+        
+        </div>
+       </div>
+       <div id="nine" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;">Wound Management (Vranopchara)
+
+            in Ayurveda</h4>
+           <p><span style="font-size: 24px;">Wounds</span>  may result due to an injury or due to some other disease process.
+            There is a large variety of wounds and ulcers. Some heal quickly while some donot
+            heal even after a long period of months and years. There are a number of factors that
+            influence the healing process. Diabetic foot ulcers, varicose vein ulcers, bed sores,
+            ulcers resulting from poor or blocked blood supply are some of the types, if not
+            managed properly; may land up in loosing the limb in the form of amputation. </p>
+           <p> <span style="font-size: 24px;">Ayurveda</span>  has a wide range of treatment modalities for wound, sores and
+            ulcer management.Ayurveda has the potential to manage such conditions. Several
+            Ayurvedic drugs are healing promoters that increase the pace of healing. Some of the
+            procedures like use of leeches (Jalauka Avcharana Karma), Avgahana, Kshar
+            Chikitsa, Parisheka, Lepa etc. are very helpful. In Ayurveda, after due consideration
+            of individual Prakriti (psychosomatic constitution), Dosha, Dushya, Adhishthana etc.
+            the treatment is designed. Acharya Sushruta has described sixty different modalities to
+            manage wound and ulcers. The results with Ayurvedic management are very
+            encouraging. With proper Ayurvedic treatment, even amputations can be prevented.
+            Both oral medications and topical Ayurvedic treatment are used in the management.
+            For further assistance, please contact us. 
+
+           </p>
+           
+          
+           
+         </div>
+         
+        
+        </div>
+       </div>
+       <div id="ten" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;">Chronic Diseases and Metabolic Disorders</h4>
+           <p>There is a cascade of chronic diseases and metabolic disorders with an ever increasing economic burden on society and country. Disease like Madhumeha (Diabetes mellitus), Hridya Roga (Hypertension and other Cardiovascular diseases), Shwasa Roga (Asthma), Harmonal disorders like Hypothyroidism, Hyperthyroidism and metabolic disorders like Vatarakta (High serum uric acid levels) etc. account for major morbidity and mortality. The causes are primarily related to poor diet and life style habits. People have forgotten the right way of living. 
+          </p>
+           <p>Ayurveda is the science of healthy and happy life. It guides us the way to total health. Total  health is the combination of physical, mental, social and spiritual wellbeing. Lack of knowledge and awareness along with reluntance to adopt the principles of Ayurveda are detrimental to health. This is important to say that most of the causes are preventable. These days people believe in shortcuts. Fast food, no exercise, inadequate sleep, frequent use of machinary instead of manual work - all these are short cuts. Finally these shortcuts have cut shorted the health and length of life. 
+ 
+
+           </p>
+           <p>Chronic illness of any type requires a prolonged treatment. Some times it has to be continued life long. It is always better to adopt the treatment that is more natural and free from adverse effects. Otherwise, a treatment which is having adverse effects will lead to further health problems and the patient will be entanged in a web of different diseases and adverse effects of their treatment. Ayurveda has the potential of preventing and treating these chronic diseases. Ayurveda formulations are from natural sources that brings health in a natural way without adverse effects. 
+
+          </p>
+          
+ 
+           <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+             <li>
+              I am 47 years, suffering from Sugar (Diabetes mellitus) since 5 years. My mother is also suffering from Sugar and high BP. Do my kids have chance to suffer from this disease in future?
+              <br>
+             <span class="answer">
+              Yes, it is the type of disease that runs in families. But it is not sure that your kids will definitely get it. It depents on multiple other factors also. Better to take opinion regarding preventive aspects (mainly diet and life style) to minimise such chances.
+
+
+             </span>
+                 
+ 
+           </li>
+           <li>
+            Is there any treatment for hypothyroidism in Ayurveda?
+
+
+            <br>
+             <span class="answer">
+              Yes. Better to consult an Ayurvedic expert after test of Thyroid profile. Don’t indulge in self medication.
+   
+             </span>
+            
+ 
+           </li>
+           <li>
+            I am having pain in different joints of my body. I am having high uric acid levels (Serum uric Acid is 8.5mg%). What  precautions should I follow?
+
+
+
+  <br>  <span class="answer"><ul><li>
+    Take plenty of water and fluids
+  </li>
+  <li>Avoid alcohol and tobacco
+  </li>
+  <li>Avoid sour and spicy food items, fast food, cold drinks, ice creams, refrigerator items</li>
+  <li>Avoid Curd and milk products. </li>
+  <li>Avoid protein powders, protein rich diet like cheese, soyabean, grams and pulses
+  </li>
+  <li>Avoid stale food stuffs, refineed oils, tea and coffee .
+
+
+  </li>
+  <li>Use green Moong Daal, Desi cow ghee and diet easy to digest.
+
+
+  </li>
+  <li>Avoid day sleep.
+
+
+  </li>
+  
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+           <li>
+            I am diagnosed with hypothyroidism. Does it have an relation with my increasing body weight?
+   
+ 
+  <br><span class="answer">
+    Yes, gaining body weight is associated with hypothyroidism.
+
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            I am working in a multinational company with a sedentary life style. I am having high blood pressure since 2 years. I am on Allopathic medicine. I want to switch on Ayurvedic medicines. How can I?
+
+   
+ 
+  <br><span class="answer">
+    Only medicines will not suffice. You have to regularise your daily routine also. 
+    •		
+  
+  </span>
+  
+   
+ 
+           </li>
+
+        
+         </ul>
+         </div>
+         
+        
+        </div>
+       </div>
+       <div id="eleven" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;">Ayurveda in Stri Roga &amp; Infertility Problems</h4>
+           <p>Healthy women is the foundation of a healthy family and
+            society. She has to perform multiple duties in diverse capacities.
+            In the present scenario, she has both indoor and outdoor
+            responsibilities, amidst which she usually ignores issues related
+            to her health. Low back pain, joint pains, leucorrhea (white
+            discharge per vaginum), anaemia, menstrual irregularities,
+            hormonal imbalances, PCOD, infertility and problems related to
+            menopause etc; require special attention and approach. In
+            Ayurveda all these health problems are addressed in a quite
+            natural and simple way. For chronic and advanced problems, an
+            extensive remedial approach is required. Simple health
+            problems, if ignored, may result in serious illness enough to
+            disturb the whole family.
+          </p>
+           <p>It is always advisable to seek advice
+            from an expert in the very beginning to avoid the progress of the
+            disease and its complications. These days, the cases of infertility
+            are increasing due to multiple reasons like late marriages, less
+            sperm count, hormonal disturbances, other health problems and
+            so on. Proper investigation, counselling and treatment is
+            required for successful outcomes.
+ 
+
+           </p>
+           
+ <h2 style="color: green; font-style: italic; text-align: center; margin-top: 20px; margin-bottom: 20px;">Feel Free To <br>
+  Contact Go-ayurhealth <br>
+  
+  We’ll Serve You To Resolve Your Health Problems</h2>
+           <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+             <li>
+              Are there any Ayurvedic remedies for treating mentrual
+irregularities?
+              <br>
+             <span class="answer">
+              Yes <br>
+Nutritional status and hormonal imbalances are the main causes behind
+menstrual irregularities. Better to consult an expert for remedial
+measures.
+
+             </span>
+                 
+ 
+           </li>
+           <li>
+            My daughter is diagnosed with PCOD. Is Ayurveda helpful
+in treating this?
+
+
+            <br>
+             <span class="answer">
+              Yes. <br>
+              Several cases of PCOD have been successfully treated by Ayurvedic
+              approach. You can seek a consultation in this regard from our experts.
+             </span>
+            
+ 
+           </li>
+           <li>
+            What care should be taken after menopause?
+
+
+
+  <br>  <span class="answer">
+    <ul>
+      <li>
+    Well balanced Diet
+  </li>
+  <li>Plenty of fluids
+  </li>
+  <li>Yoga and regular exercise schedules</li>
+  <li>Avoid acidic food stuffs viz. sour and spicy food, tea, coffee,
+    cold drinks. </li>
+  <li>Regular use of Ayurvedic Rasayanas for overall health and
+    immunity
+  </li>
+  <li>Regular health check-up for high risk groups.
+
+  </li>
+  
+  
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+           <li>
+            Are there any Ayurvedic medications to increase the sperm
+count?
+
+ 
+  <br><span class="answer">
+    Yes, Vajikarna Ayurvedic formulations are specially designed for
+various problems related to decreased sperm counts and infertility.
+   
+
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            What are the Ayurvedic treatment modalities for treating
+            Infertility?
+   
+ 
+  <br><span class="answer">
+    <ul>
+      <li>
+        Diet and life style regulation
+  </li>
+  <li>Detoxing therapies of Panchakarma including Uttarbasti Karma
+  </li>
+  <li>Use of specially designed Vajikarna Ayurvedic formulations</li>
+  
+  
+  
+</ul>
+  
+  </span>
+  
+   
+ 
+           </li>
+           <li>
+            My daughter of 15 years is having a very painful menses. She
+has to take leave from studies during that period. How can she be
+relieved of this?
+
+ 
+  <br><span class="answer">
+    She should strictly follow Rajaswala Charya of Ayurveda It is
+better to consult our expert to get the complete schedule of
+Rajaswala Charya. Ayurvedic health tonics are also beneficial in
+this regard.
+   
+
+  </span>
+  
+   
+ 
+           </li>
+        
+         </ul>
+         </div>
+         
+        
+        </div>
+       </div>
+
+       <div id="twelve" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;">Skin Diseases &amp; Hair Problems</h4>
+           <p> <span style="font-size: 20px; color: red;">Skin Diseases &amp; Hair Problems</span>  are primarily the result of
+            impurities in Rakta Dhatu (blood). Toxins circulating in the blood lead to
+            manifestion of various problems like 18 types of Kushtha Roga, uneven
+            skin tone, blemishes, moles, acne/pimples and skin allergies etc. Also,
+            hair problems like early greying of hair, excessive hair fall and baldness
+            are the common problems these days. Application of very costly creams,
+            serums and oils usually fail to provide lasting improvement. Ayurveda
+            works to root out the cause by natural ways and is devoid of harmful
+            chemicals. Ayurvedic detox therapies purify blood and provide lasting
+            relief .
+          </p>
+          <h4 style="text-align: center; font-style: italic; color: green; margin-bottom: 0px; margin-top: 20px;">For</h4>
+          <h3 style="text-align: center;font-style: italic; color: red; margin-bottom: 0px; margin-top: 0px;">Skin &amp; Hair Problems</h3>
+          <h2 style="text-align: center; font-style: italic; color: green; margin-bottom: 30px; margin-top: 0px;"> Nothing is better than Ayurveda</h2>
+          
+
+          
+          
+         
+ 
+           <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+           
+        
+           <li>
+            What are the main causes of skin and hair problems?
+
+
+
+  <br>  <span class="answer">
+    <ul>
+      <li>
+        Inadequate intake of water and Intake of unhealthy food
+  </li>
+  <li>Fast foods, Cold drinks and beverages.
+  </li>
+  <li>Excessive salty food, sour eatables like pickles, sauces etc.</li>
+  <li>Vinegars,spicy food and late night eating habits</li>
+  <li>Improper and inadequate sleeping habits
+  </li>
+  <li>Harmone imbalance and lack of exercise
+
+  </li>
+  <li> Exposure to polluted environment etc.
+
+  </li>
+  
+  
+ 
+</ul>
+    
+  
+   
+  </span>
+  
+ 
+           </li>
+           <li>
+            Can early greying of hair be prevented ?
+ 
+  <br><span class="answer">
+    Yes, following the Ayurvedic management, it can be.
+   
+
+  </span>
+  
+   
+ 
+           </li>
+
+           <li>
+            What Ayurvedic treatment modalities are mainly used for hair fall
+problems?
+   
+ 
+  <br><span class="answer">
+    <ul>
+      <li>
+        Local therapies like Shirodhara, Shirobasti, Abhyanga, Shirolepa,
+        Nasya Karma etc.
+  </li>
+  <li>Blood letting of impure blood by Jalauka (leech therapy) and
+    Prachhanna Karma (an Ayurvedic surgical procedure).
+  </li>
+  <li>Oral Ayurvedic formulations to help detox the body and enhance hair
+    growth naturally.</li>
+  
+  
+  
+</ul>
+  
+  </span>
+  
+   
+ 
+           </li>
+           <li>
+            I am suffering from psoriasis since last 2 years. I have taken
+treatment from various places but got only temporary relief. Can
+Ayurveda help me in this? What would be the management in
+Ayurveda?
+
+ 
+  <br><span class="answer">
+    Yes, both local and oral treatment is required. Detox by
+Panchakarma therapies have excellent results towards cure.
+   
+
+  </span>
+  
+   
+ 
+           </li>
+           <li>
+            When weather changes, I get excessive itching and skin rashes on
+            my body? I have been told that this is a skin allergy. Is there any
+            treatment for this in Ayurveda?
+
+ 
+  <br><span class="answer">
+    Yes, both preventive and curative treatments are available. With
+    this you have to follow the diet regimen as well.
+
+  </span>
+  
+   
+ 
+           </li>
+        
+         </ul>
+         </div>
+         
+        
+        </div>
+       </div>
+       <div id="thirteen" class="tabcontent">
+        <div class="row">
+         <div class="col-12 cancerContent">
+           <h4 style="text-align: center;">Balroga and Ayurveda</h4>
+           <p> <span style="font-size: 24px; color: red;">Balroga Chikitsa</span>  
+            is the specialized branch of Ayurveda that deals
+with the diseases of children. Children have their own health problems
+that need to be properly and carefully addressed. Ayurvedic health
+formulations and tonics prepared from Indian Desi cow products and
+natural herbal sources are best suited to the problems related to growth
+and development. It is vital to maintain a good immunity status during
+this age for the unhindered growth and development. A number of
+diseases are particularly related to specific age group of children like
+problems related to development, dentition and oral health and bed-
+wetting etc. Malnutrition, recurrent infections, diarrhoea, indigestion,
+eating problems and different psychological problems etc. require a
+special approach. Healthy habits related to diet and life style are to be
+inculcated since very early phase of life as it is their foundation of healthy
+future life. Healthy youth is the future of a healthy nation as dreamed by
+Swami Vivekananda.
+          </p>
+           
+ <h2 style="color: red; font-style: italic; text-align: center; margin-top: 20px; margin-bottom: 20px;">A Tree With Strong &amp; Healthy Roots Yields Healthy Fruits</h2>
+           <h4 style="text-align: center;">FAQ</h4>
+           <ul>
+           
+        
+       
+           <li>
+            I have heard of Swaran Prashan. Can I give it to my son who is 5
+years old and oftenly gets ill?
+ 
+  <br><span class="answer">
+    Yes, it will certainly help in boosting up his immunity. Frequent
+illness has negative effect on growth and overall development of the
+child. Swarna Prashana prepared from Indian Desi Cow products, natural
+herbs and Swarna Bhasma is beneficial for enhancing immunity levels to
+fight infections and diseases.
+   
+
+  </span>
+  
+   
+ 
+           </li>
+
+       
+           <li>
+            My 12 years old daughter has the problem of constipation. She has
+a very poor appetite and is only interested in fastfoods and market
+products. Please guide me.
+ 
+  <br><span class="answer">
+    Healthy food habits are to be inculcated since very beginning. It is
+better to prepare different food stuffs at home that are tasty and palatable.
+Discourage all types of fast foods. If you are taking fastfoods in front of
+her how can you stop her from taking the same. You will be best
+example. She will follow your ways. Disciplined food habits are taught
+by the parents. Add enough fibre and fluids in her diet to enhance gut
+health and regular bowel clearance.
+
+  </span>
+  
+   
+ 
+           </li>
+          
+        
+         </ul>
+         </div>
+         
+        
+        </div>
+       </div>
+
+    </div>
+
+     <div class="row ayurvedaTreatment">
+      <div class="col-md-6 col-12 cancerQuestionImg ">
+        <img src="./images/ayurveda2.jpg" alt=""  height="400px" >
+      </div>
+      <div class="col-md-6 col-12 text">
+        <h2> <i>
+          THE GREAT  THING ABOUT <BR></BR> AYURVEDA IS  THAT ITS <BR></BR>
+          TREATMENTS  ALWAYS YIELD <BR></BR> SIDE BENEFITS  NOT SIDE EFFECTS
+        </i>
+         
+        </h2>
+      </div>
+      <div class="col-12 offTreatment" >
+        <button class="btn btn-primary therapyBut" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" > Ayurvedic Therapies</button>
+       
+       
+        
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header" style="background-color: rgb(239, 213, 217);">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel" >Ayurvedic Therapies</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body " style="color: rgb(5, 63, 5); background-color: bisque;"> <b>
+    
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Internal and external by massage with medicated oils">
+      •	Snehana Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Sudation">
+      •	Swedana Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Therapeutic vomiting therapy">
+      •	Vaman Karma
+    </button>
+   
+   
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Therapeutic purgation therapy">
+      •	Virechana Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A type of enema using medicated decoctions">
+      •	Niruha Basti Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A type of enema using medicated oils">
+      •	Anuvasana Basti Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="By administration of drugs through urethra">
+      Uttar Basti Karma
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A therapy for low back pain, disc diseases and sciatica">
+      •	Kati Basti Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A therapy for low cervical pain">
+      •	Greeva Basti Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A therapy for knee pain">
+      •	Janu Basti Karma 
+    </button>
+
+
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="A therapy for management of stress, anxiety, headache and sleeplessness">
+      •	Shirodhara 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Leech Therapy">
+      •	Jalauka Avcharna Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Heat therapy">
+      •	Agnikarma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Therapeutic blood letting by venepuncture">
+      •	Siravedhana Karma 
+    </button>
+    
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Ayurvedic management of non healing wounds&ulcers">
+      •	Vranopchara 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="For piles, fissure, fistula, pilonidal sinus, tumours etc">
+      •	Kshar Sutra Karma 
+    </button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Yoga & Meditation">
+      •	Yoga & Meditation 
+    </button> 
+    
+  </b>
+  </div>
+</div>
+      </div>
+      <h6 style="color: red; text-align: center; margin-bottom: 20px;">Click button to know about therapies</h6>
+      <div class="col-12 col-md-6 ayurText">
+        <p> <b><i>Ayurveda</i> </b>  is not only a medical science, it is actually the way of healthy and happy life. Ayurveda has a holistic and rational approach towards cure of diseases. <br>
+        
+          Diet and life style related diseases have an ever increasing graph pattern due to lack of awareness. Materialistic sophiscication is engulfing healthy routine practices and peace of mind. <br> <b>‘Prevention is always better than cure’ </b> especially when the resultant disease is either incurable or difficult to cure. Ayurveda has both preventive and curative aspects. Preventive aspect is very important specially when the disease is due to controllable risk factors. It becomes more important when there is a positive family history like different types of cancer including breast cancer, diabetes mellitus (sugar), hypertension (high blood pressure) etc. It is always wise to consult the doctor for preventive care. Diet according to season, daily practices of Yoga & Pranayama, maintaining body weight within healthy limits, regular detoxification of body by Panchakarma are the main preventive measures.   Proper awareness and healthy practices of Ayurveda can reverese the entire scenario. <br>
+           Ayurvedic management is free from all adverse side effects. It increases vitality and quality of life. In Ayurveda, the management approach is totally individualized. <br><i>Consideration of Prakriti (psychosomatic constitution), Dosha (vital humors of body), Dushya (body tissues), Desha (location), Bala (physical and mental strength), Kala (season) and Agni (digestive fire) etc. are the main factors of  consideration while designing management.</i>  All these factors vary from patient to patient. Donot indulge in self medication, as it may not yield proper results. To obtain the best results, it is advisable to have consultation with an Ayurvedic expert.
+      </div>
+      <div class="col-12  col-md-6 part1">
+        <div>
+          <img src="./images/ayurvedaquote3.jpeg" alt="" />
+        </div>
+      </div>
+    
+     </div>
+     
+     
+   
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset" style="text-decoration: none">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a href="" class="me-4 text-reset" style="text-decoration: none">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset" style="text-decoration: none">
+              <i class="fa fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset" style="text-decoration: none">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset" style="text-decoration: none">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fa fa-tree me-3"></i>Ayur Health
+                </h6>
+                <p>
+                  Ayurhealth is the leading platform that provides Ayurvedic
+                  management services.We are a group of Ayurvedic experts who
+                  are committed to excellence in this field.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Treatments</h6>
+                <p>
+                  <a href="./cancer.html" class="text-reset">Breast cancer</a>
+                </p>
+                <p>
+                  <a href="./cancer.html" class="text-reset"
+                    >colorectal cancer</a
+                  >
+                </p>
+                <p>
+                  <a href="./cancer.html" class="text-reset">mouth cancer</a>
+                </p>
+                <p>
+                  <a href="./cancer.html" class="text-reset">lung cancer</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Cancer & Ayurveda</h6>
+                <p>
+                  <a href="./cancer.html" class="text-reset">Pain Managment</a>
+                </p>
+                <p>
+                  <a href="./cancer.html" class="text-reset">Skin diseases</a>
+                </p>
+                <p>
+                  <a href="./cancer.html" class="text-reset">Balroga</a>
+                </p>
+                <p>
+                  <a href="./cancer.html" class="text-reset"
+                    >Stri Roga &amp; Infertility</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fa fa-whatsapp me-3"></i> +91 8209193582</p>
+                <p>
+                  <i class="fa fa-envelope me-3"></i>
+                  ayurhealth2all@gmail.com
+                </p>
+                <p><i class="fa fa-phone me-3"></i> +91 820 919 3582</p>
+                <p><i class="fa fa-phone me-3"></i> +91 82490 54738</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+            >Ayur Health.com</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+   
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+  </body>
+</html>
