@@ -1,5 +1,13 @@
 body {
 }
+.mainContainer {
+  margin-top: 56px;
+}
+@media only screen and (max-width: 451px) {
+  .mainContainer {
+  }
+}
+
 .row .part1 {
   padding: 0px;
 }
@@ -169,7 +177,30 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-
+.ayurvedaTreat .treatmentBut {
+  display: flex;
+  justify-content: center;
+}
+.ayurvedaTreat a {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.ayurvedaTreat p {
+  color: green;
+  text-align: center;
+}
+.ayurvedaTreat li {
+  margin-bottom: 10px;
+  color: #dc3545;
+}
+.videoBox {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
 .cancerImg img {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -263,14 +294,17 @@ body {
   font-size: 18px;
 }
 
-.videos {
-  padding: 20px;
-  background-color: black;
+@media only screen and (max-width: 600px) {
+  .videoBox {
+    display: none;
+  }
 }
-.videos video {
-  margin: 20px;
-  border-radius: 20px;
+@media only screen and (min-width: 600px) {
+  .videoBox2 {
+    display: none;
+  }
 }
+
 /* about us */
 .cancer {
   overflow: hidden;
@@ -474,6 +508,9 @@ input[type="submit"]:hover {
 .cancerContent .answer {
   color: green;
 }
+.answer li {
+  color: green;
+}
 .cancerContent li {
   margin-bottom: 15px !important;
 }
@@ -494,4 +531,23 @@ input[type="submit"]:hover {
 .founder {
   background-color: #f7dc5f;
   background-image: linear-gradient(to right, #f7dc5f, white);
+}
+.flowchart img {
+  width: 600px;
+  height: 400px;
+}
+@media only screen and (max-width: 767px) {
+  .flowchart img {
+    width: 300px;
+    height: 200px;
+  }
+}
+.product ul,
+li {
+  font-size: 20px;
+  color: red;
+}
+.accordion-body li {
+  font-size: 16px;
+  color: green;
 }
