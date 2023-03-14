@@ -201,6 +201,30 @@ body {
   justify-content: center;
   padding: 40px;
 }
+
+.videoBox video {
+  width: 510px !important;
+  height: 340px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .videoBox video {
+    width: 360px !important;
+    height: 240px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .videoBox video {
+    width: 330px !important;
+    height: 220px !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .videoBox video {
+    width: 270px !important;
+    height: 180px !important;
+  }
+}
 .cancerImg img {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -292,17 +316,6 @@ body {
   padding: 20px;
   color: brown;
   font-size: 18px;
-}
-
-@media only screen and (max-width: 600px) {
-  .videoBox {
-    display: none;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .videoBox2 {
-    display: none;
-  }
 }
 
 /* about us */
@@ -554,4 +567,17 @@ li {
 .aboutHeading .tagline {
   font-style: italic;
   font-size: 26px;
+}
+.headerTreatment {
+  font-size: 18px !important;
+}
+@media only screen and (max-width: 374px) {
+  .headerTreatment {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .galaxyLogo {
+    display: none;
+  }
 }
