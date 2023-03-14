@@ -551,3 +551,7 @@ li {
   font-size: 16px;
   color: green;
 }
+.aboutHeading .tagline {
+  font-style: italic;
+  font-size: 26px;
+}
